@@ -1,0 +1,16 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "testing webpack",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-web-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoGdaR/testing-webpack.git"
+  },
+  "author": "SantiagoGdaR",
+  "license": "ISC",
+  "homepage": "https://github.com/SantiagoGdaR/testing-webpack"
+}
