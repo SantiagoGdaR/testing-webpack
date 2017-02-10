@@ -21,7 +21,7 @@ module.exports = {
     contentBase: 'public'
   },
   resolve: {
-    extensions: ['', '.js']
+    extensions: ['*', '.js']
   },
   watch: true
 }

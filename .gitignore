@@ -1,3 +1,4 @@
 *.log
 *.babelrc
 node_modules/
+build/
