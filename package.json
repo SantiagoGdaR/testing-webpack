@@ -1,16 +1,17 @@
 {
-  "name": "webpack",
+  "name": "webpack-test",
   "version": "1.0.0",
   "description": "testing webpack",
-  "main": "app.js",
   "scripts": {
-    "start": "webpack-web-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SantiagoGdaR/testing-webpack.git"
+    "start": "webpack-dev-server"
   },
   "author": "SantiagoGdaR",
   "license": "ISC",
-  "homepage": "https://github.com/SantiagoGdaR/testing-webpack"
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
 }
