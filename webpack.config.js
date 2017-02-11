@@ -11,9 +11,12 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.es6$/,
+        test: /\.js$/,
         exclude: /node_modules/,
-        loader: "babel-loader"
+        loader: "babel-loader",
+        query: {
+          presets: ['es2015']
+        }
       }
     ]
   },
@@ -21,7 +24,7 @@ module.exports = {
     contentBase: 'public'
   },
   resolve: {
-    extensions: ['*', '.js', '.es6']
+    extensions: ['*', '.js']
   },
   watch: true
 }
