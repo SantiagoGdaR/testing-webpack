@@ -1,4 +1,6 @@
 let users = require ('./userList');
+require('../css/bootstrap.css');
+require('../css/site.css');
 
 console.log('...webpack server running');
 
