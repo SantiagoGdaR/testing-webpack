@@ -14,6 +14,6 @@ module.exports = class User {
   set email(email){ this._email = email };
 
   toString(){
-    return `Nombre: ${this._name} Apellido: ${this._surname}`
+    return `Name: ${this._name} Surname: ${this._surname}`
   }
 }
